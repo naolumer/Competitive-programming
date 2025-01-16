@@ -1,6 +1,6 @@
 class Solution:
     def xorAllNums(self, nums1: List[int], nums2: List[int]) -> int:
-       xor1,xor2 = 0,0
+        xor1,xor2 = 0,0
 
         for num in nums1:
             xor1=xor1^num
