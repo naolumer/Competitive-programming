@@ -1,7 +1,7 @@
 
 def chunked(array,size):
 
-    chunk = []
+    chunk = []   # array to store chunked arrays
     i=0
     while i<len(array):
 
@@ -9,5 +9,3 @@ def chunked(array,size):
         chunk.append(chunked)
         i = i + size
     return chunk
-
-print(chunked([8,5,3,2,6],6))
