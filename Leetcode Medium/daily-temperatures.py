@@ -4,7 +4,7 @@ class Solution:
         t = temperatures
         n = len(t)
         ans = [0]*n
-        stack = []
+        stack = []    # initialize our stack
 
         for i,temp in enumerate(t):
             while stack and stack[-1][0] < temp:
