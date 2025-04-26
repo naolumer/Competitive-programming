@@ -7,7 +7,6 @@ class Solution:
             if frq==2:
                 twice.append(num)
                 
-        
         xor = 0
 
         for num in twice:
