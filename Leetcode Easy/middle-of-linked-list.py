@@ -1,5 +1,4 @@
 def middleNode(head):
-    
     fastp= head
     slowp = head
 
