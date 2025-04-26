@@ -1,11 +1,6 @@
 class Solution(object):
     def generateKey(self, num1, num2, num3):
-        """
-        :type num1: int
-        :type num2: int
-        :type num3: int
-        :rtype: int
-        """
+
         n1 = (str(num1))
         n2 = (str(num2))
         n3 = (str(num3))
