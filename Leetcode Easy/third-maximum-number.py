@@ -1,5 +1,5 @@
 class Solution:
-    def thirdMax(self, nums: List[int]) -> int:
+    def thirdMax(self, nums):
         sortted = sorted(set(nums))
         print(sortted)
 
