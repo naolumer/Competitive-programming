@@ -5,11 +5,7 @@
 #         self.next = next
 class Solution(object):
     def rotateRight(self, head, k):
-        """
-        :type head: Optional[ListNode]
-        :type k: int
-        :rtype: Optional[ListNode]
-        """
+     
         if not head or not head.next:    # checking if the head is empty or null
             return head
         N = 1
