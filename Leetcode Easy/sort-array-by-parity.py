@@ -2,7 +2,6 @@ class Solution:
     def sortArrayByParity(self, nums: List[int]) -> List[int]:
         p1 = len(nums)-1
         p2 = 0
-
         arr = nums[:]
         for n in nums:
             if n%2==0:
