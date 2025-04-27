@@ -15,5 +15,5 @@ def findPeakElement(nums):
             low = mid + 1
         else:
             high = mid-1
-# O(logn) Binary Search
+
             
