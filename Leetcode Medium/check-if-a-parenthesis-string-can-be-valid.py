@@ -1,4 +1,5 @@
 class Solution:
+    
     def canBeValid(self, s: str, locked: str) -> bool:
         if len(s) % 2 == 1:
             return False
