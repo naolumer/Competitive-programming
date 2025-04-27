@@ -1,7 +1,6 @@
 def isAlienSorted(words, order):
        
     orderdic= {c:i for i,c in enumerate(order)}
-
     words2=[]
 
     for word in words:
