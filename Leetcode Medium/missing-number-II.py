@@ -1,3 +1,4 @@
+from collections import Counter
 def singleNumber(nums):
     count  = Counter(nums)
 
