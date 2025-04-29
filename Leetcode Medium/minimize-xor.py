@@ -1,7 +1,7 @@
 class Solution:
     def minimizeXor(self, num1: int, num2: int) -> int:
-        bitCount = bin(num2).count('1')  # Count 1-bits in num2
-        bitCount -= bin(num1).count('1')  # Adjust by 1-bits in num1
+        bitCount = bin(num2).count('1') 
+        bitCount -= bin(num1).count('1') 
         cur = 1
 
         while bitCount != 0:
