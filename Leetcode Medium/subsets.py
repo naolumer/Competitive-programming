@@ -9,7 +9,6 @@ class Solution:
                 res.append(sol[:])
                 return
             
-            # not picking nums[i]
             backtrack(i+1)
 
             # picking nums[i]
