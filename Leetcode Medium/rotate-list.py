@@ -10,7 +10,7 @@ class Solution(object):
             return head
         N = 1
         cur = head
-        while cur.next:     # counting the length of our linkedlist
+        while cur.next:     
             N+=1
             cur = cur.next
         cur.next = head     # making the linkedlist circular (connection the tail to the head)
