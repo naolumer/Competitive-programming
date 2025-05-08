@@ -10,7 +10,6 @@ class Solution:
                 return
             
             backtrack(i+1)
-
             # picking nums[i]
             sol.append(nums[i])
             backtrack(i+1)

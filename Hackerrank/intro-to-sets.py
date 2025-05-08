@@ -4,9 +4,7 @@ def average(array):
     
     summ = sum(set_)
     ave = round(summ/len(set_),3)
-    return ave
-        
-        
+    return ave 
     # your code goes here
 
 if __name__ == '__main__':
