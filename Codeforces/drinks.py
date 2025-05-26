@@ -1,4 +1,5 @@
 n= int(input())
+
 p= input()
 sl= p.split()
  
