@@ -16,4 +16,5 @@ class Solution:
                     k = stack.pop() + k
                 
                 stack.append(int(k)*substr)
+                
         return "".join(stack)
