@@ -4,6 +4,7 @@ for i in range(n):
     nums= list(map(int, input().split() ))
     lis.append(nums)
 tl=[]
+
 for ab in lis:
     tl.append(ab[1]-ab[0])
 sl=[tl[0]]
