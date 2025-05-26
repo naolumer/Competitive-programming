@@ -4,8 +4,7 @@ if len(s)==1:
     print(s)
 else:
     d= s.split("+")
- 
- 
+
     ol=[]
     tl=[]
     thrl=[]
