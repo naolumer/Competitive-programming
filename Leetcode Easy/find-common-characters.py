@@ -7,6 +7,7 @@ class Solution:
             cur_count = Counter(word)
             for c in count:
                 count[c] = min(count[c],cur_count[c])
+                
         answer = []
         for key,val in count.items():
             for i in range(val):
