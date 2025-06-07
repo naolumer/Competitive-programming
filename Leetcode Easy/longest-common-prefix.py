@@ -7,6 +7,7 @@ def longestCommonPrefix(strs):
     i=0
 
     while min_length>i:
+        
         for s in strs:
             if s[i]!=strs[0][i]:
                 return s[:i]
