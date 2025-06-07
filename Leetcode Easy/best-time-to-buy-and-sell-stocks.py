@@ -1,18 +1,18 @@
+def maxPrice(self, prices):
 
-def maxProfit(self, prices):
-        
-        minPrice = prices[0]
-        maxProfit = 0
+    minPrice = prices[0]
+    maxProfit = 0
 
-        for i in range(1,len(prices)):
-            currentPrice = prices[i]
-        
-            if minPrice>currentPrice:
-                minPrice= currentPrice
-        
-            potentialProfit = currentPrice-minPrice
+    for i in range(len(prices)):
 
-            if potentialProfit>maxProfit:
-                maxProfit = potentialProfit
-            
+        curPrice = prices[i]
+
+        if curPrice < minPrice:
+            minPrice = curPrice
+        
+        potential_profit = curPrice - minPrice
+
+        if potential_profit > maxProfit:
+            maxProfit = potential_profit
+
         return maxProfit
