@@ -1,6 +1,7 @@
 from collections import defaultdict
 class Solution:
     def findRelativeRanks(self, score: List[int]) -> List[str]:
+        
         sortted = sorted(score,reverse = True)
         dicct = defaultdict()
 
