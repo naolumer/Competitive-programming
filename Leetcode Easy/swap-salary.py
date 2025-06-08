@@ -1,5 +1,6 @@
 import pandas as pd
 data = {
+    
     'id': [1, 2, 3, 4],
     'name': ['A', 'B', 'C', 'D'],
     'sex': ['m', 'f', 'm', 'f'],
