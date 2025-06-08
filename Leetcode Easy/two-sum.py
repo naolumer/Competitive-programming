@@ -11,3 +11,14 @@ def twoSum(nums, target):
         return two_sum
 
 print(twoSum([2,3,4,5,6], 11))
+
+# Alternative solution using dictionary
+        # h  = {}
+        # for i in range(len(nums)):
+        #     y = target - nums[i]
+
+        #     if y in h and h[y]!= i:
+        #          return [h[y], i]
+            
+        #     h[nums[i]] = i
+
