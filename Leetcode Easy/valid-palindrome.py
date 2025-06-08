@@ -10,3 +10,20 @@ def isPalindrome(self, x):
     
     
     return rev_num==s_num
+
+#  Alternative two-pointer solution
+
+    # x.strip()
+    # s = [char for char in x if char.isalnum()]
+    # sl =  [char.lower() for char in s]
+
+    # l  = 0
+    # r = len(sl)-1
+
+    # while l<=r:
+    #     if sl[l]==sl[r]:
+    #         l+=1
+    #         r-=1
+    #     else:
+    #         return False
+    # return True
