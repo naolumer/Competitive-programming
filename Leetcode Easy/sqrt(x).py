@@ -4,6 +4,7 @@ def sqrtt(x):
     low,high = 0, x//2 + 1
 
     while low<=high:
+        
         if x==1 or x==0:
             return x
         mid = (high + low)//2
