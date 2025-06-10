@@ -8,6 +8,7 @@ def isAlienSorted(words, order):
         for char in word:
             tmp.append(orderdic[char])
         words2.append(tmp)
+        
     for i in range(1, len(words2)):
         if words2[i]<words2[i-1]:
             return False
