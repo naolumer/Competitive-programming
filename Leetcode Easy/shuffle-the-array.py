@@ -10,3 +10,10 @@ class Solution:
             new_arr.append(half_num2[i])
         
         return new_arr
+    
+    
+
+    # more optimal solution
+    # def shuffle(self, nums: List[int], n: int) -> List[int]:
+    #     return [num for i in range(n) for num in (nums[i], nums[i + n])]
+    
