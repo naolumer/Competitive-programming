@@ -4,8 +4,13 @@ class Solution:
     ) -> int:
         players.sort()
         trainers.sort()
-        m, n = len(players), len(trainers)
-        i = j = count = 0
+
+        m= len(players)
+        n= len(trainers)
+        
+        i = 0
+        j = 0
+        count = 0
 
         while i < m and j < n:
             while j < n and players[i] > trainers[j]:
