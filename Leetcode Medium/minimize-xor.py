@@ -5,6 +5,7 @@ class Solution:
         cur = 1
 
         while bitCount != 0:
+            
             if bitCount < 0 and (num1 & cur) != 0:  # Remove a set bit
                 num1 ^= cur
                 bitCount += 1
