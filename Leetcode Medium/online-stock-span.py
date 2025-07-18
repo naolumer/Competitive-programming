@@ -9,4 +9,5 @@ class StockSpanner:
             p,s = self.prices.pop()
             span+=s
         self.prices.append((price,span))
+        
         return span
