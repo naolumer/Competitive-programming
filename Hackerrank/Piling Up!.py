@@ -23,6 +23,7 @@ while t>0:
         else:
             flag= True
             break
+        
     if flag or latest>csv:
         print("No")
     else:
