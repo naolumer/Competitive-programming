@@ -2,8 +2,10 @@ class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
 
         dp = [[0 for i in range(len(word1)+1)] for j in range(len(word2)+1)]
+
         for i in range(len(word1)+1):
             dp[0][i] = i
+            
         for j in range(len(word2)+1):
             dp[j][0] = j
 
