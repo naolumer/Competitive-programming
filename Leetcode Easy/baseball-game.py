@@ -6,6 +6,7 @@ class Solution:
             if  char =='+':
                 if len(ans)>=2:
                     ans.append(int(ans[-1])+int(ans[-2]))
+                    
             elif char =="C":
                 ans.pop()
             elif char =="D":
