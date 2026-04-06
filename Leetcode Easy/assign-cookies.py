@@ -1,4 +1,3 @@
-
 def assignCookies(g,s):
 
     g.sort()
@@ -13,7 +12,5 @@ def assignCookies(g,s):
             contentChildren+=1
         cookieIndex+=1
     return contentChildren
-    
-print(assignCookies([1,2],[1,2,3]))
 
 
